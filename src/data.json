@@ -1,0 +1,30 @@
+{
+  "id": "1",
+  "char": "Alisa",
+  "movelist": [
+    {
+      "name": "Stop Bit",
+      "input": "1 1",
+      "frames": [10, -3, 5], 
+      "hit": "h h",
+      "damage": [7,18],
+      "attributes": ""
+    },
+    {
+      "name": "Stop Bit to Destructive Form",
+      "input": "1 1 1+2",
+      "frames": [10, -64, -56],
+      "hit": "h h",
+      "damage": [7,18],
+      "attributes": ""
+    },
+    {
+      "name": "Coil Punch Combo",
+      "input": "1 2 2",
+      "frames": [10, -11, 2],
+      "hit": "h h",
+      "damage": [7,10],
+      "attributes": ""
+    }
+  ]
+}
