@@ -18,6 +18,34 @@ export const Image = styled.img`
 width: 100%;
 height:auto;
 `
+export const MoveGif = styled.img`
+width: 70%;
+height:auto;
+margin-bottom: 5%;
+`
+
+export const PaginationWrapper = styled.div`
+position:absolute;
+bottom:0;
+height:20px;
+width:100%;
+text-align:center;
+display:flex;
+flex-direction: row;
+justify-content:center;
+`
+
+export const PaginationItems = styled.h1`
+color:white;
+font-size: .5em;
+cursor:pointer;
+margin: 0 .5% 2% .5%;
+transition: opacity .1s linear;
+opacity: ${props => props.active ? 1 : .5};
+&:hover {
+  opacity: 1;
+}
+`
 
 export const Poverlay = styled.div`
 position:absolute;
@@ -80,14 +108,19 @@ text-shadow: 0 0 2px ${props => props.active ? '#fff' : 'none'};
 
 export const InformationHeader = styled.h1`
 font-family: 'Orbitron', sans-serif;
-font-size: 1.1em;
-margin-top: 2%;
+color: white;
+font-size: 1.2em;
+margin: 2% 2% 2% 2%;
 `
 
 export const InformationText = styled.p`
 font-family: 'Questrial', sans-serif;
 color: white;
-font-size: 1.2em;
+font-size: 1.1em;
 line-height: 1.3em;
 margin: 2% 2% 2% 2%;
+`
+
+export const InformationContainer = styled.div`
+position:relative;
 `
