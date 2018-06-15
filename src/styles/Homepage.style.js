@@ -18,21 +18,36 @@ export const Image = styled.img`
 width: 100%;
 height:auto;
 `
-export const MoveGif = styled.img`
-width: 70%;
-height:auto;
+
+export const InputContainer = styled.div`
+width:100%;
+height: auto;
+margin-top: 5%;
 margin-bottom: 5%;
+display:flex;
+flex-direction: row;
+justify-content:center;
+`
+
+export const MoveGif = styled.img`
+width:80%;
+margin-left:10%;
+height: auto;
+`
+
+export const MoveSvg = styled.img`
+width:6%;
+height: 6%;
 `
 
 export const PaginationWrapper = styled.div`
-position:absolute;
-bottom:0;
 height:20px;
 width:100%;
 text-align:center;
 display:flex;
 flex-direction: row;
 justify-content:center;
+margin-bottom: 1%;
 `
 
 export const PaginationItems = styled.h1`

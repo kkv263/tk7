@@ -1,30 +1,66 @@
 {
-  "id": "1",
-  "char": "Alisa",
+  "id": "001",
+  "char": "Jin",
   "movelist": [
     {
-      "name": "Stop Bit",
-      "input": "1 1",
-      "frames": [10, -3, 5], 
-      "hit": "h h",
-      "damage": [7,18],
-      "attributes": ""
+      "input": ["b","1+2"],
+      "desc": "",
+      "notes": "During Rage"
     },
     {
-      "name": "Stop Bit to Destructive Form",
-      "input": "1 1 1+2",
-      "frames": [10, -64, -56],
-      "hit": "h h",
-      "damage": [7,18],
-      "attributes": ""
+      "input": ["f","n","d","df","1+2","3","1"],
+      "desc": "",
+      "notes": "During Rage"
     },
     {
-      "name": "Coil Punch Combo",
-      "input": "1 2 2",
-      "frames": [10, -11, 2],
-      "hit": "h h",
-      "damage": [7,10],
-      "attributes": ""
+      "input": ["4"],
+      "desc": "",
+      "notes": ""
+    },
+    {
+      "input": ["f", "hf", "3"],
+      "desc": "",
+      "notes": ""
+    },
+    {
+      "input": ["b","1+3", "b", "2+4"],
+      "desc": "",
+      "notes": ""
+    },
+    {
+      "input": ["db","4"],
+      "desc": "",
+      "notes": ""
+    },
+    {
+      "input": ["1+2"],
+      "desc": "",
+      "notes": "During Mental Alertness 2"
+    },
+    {
+      "input": ["f", "3"],
+      "desc": "",
+      "notes": ""
+    },
+    {
+      "input": ["uf", "2"],
+      "desc": "",
+      "notes": ""
+    },
+    {
+      "input": ["f", "n", "d", "df", "2"],
+      "desc": "",
+      "notes": "df and 2 Pressed Simultaneously"
+    },
+    {
+      "input": ["f", "n", "d", "df", "1"],
+      "desc": "",
+      "notes": "df and 2 Pressed Simultaneously"
+    },
+    {
+      "input": ["f", "n", "d", "df", "4"],
+      "desc": "",
+      "notes": ""
     }
   ]
 }
